@@ -1,0 +1,6 @@
+{
+  "includes": ["typescript/*.ts"],
+  "compilerOptions": {
+    "outDir": "javascript"
+  }
+}
