@@ -26,4 +26,4 @@ function controlFlowAnalysisWithNever(foo) {
  * 但是忘了在 controlFlowAnalysisWithNever 函数中去实现对应方法，那么执行该函数的时候，
  * 在 else 分支里 foo 类型会被收窄为 boolean 类型，导致无法赋值给 never 类型，产生编译错误。
  * 所以使用 never 避免出现新增了联合类型没有对应的实现，目的就是写出类型绝对安全的代码。
-*/ 
+*/
