@@ -1,6 +1,7 @@
 {
   "includes": ["typescript/*.ts"],
   "compilerOptions": {
-    "outDir": "javascript"
+    "outDir": "javascript",
+    "experimentalDecorators": true
   }
 }
