@@ -29,7 +29,6 @@ function printEmployeeInformation(emp: UnknownEmployee) {
   }
 }
 
-
 // 2. typeof 关键字
 
 function padLeft(value: string, padding: string | number) {
@@ -123,8 +122,3 @@ example2('hello world')
  * 在使用类型保护时，TS会进一步缩小变量的类型，上面 从 any 缩小了至 string
  * 类型保护的作用域仅仅在 if 后的块级作用域中生效
 */
-
-
-
-
-
